@@ -9,7 +9,6 @@ p {
   color: #6c7279; }
 
 h1 {
-  margin-top: 0;
   font-size: 65px;
   color: #2d3033; }
 
@@ -271,7 +270,7 @@ ul li {
   min-height: 750px; }
 
 .banner-text {
-  padding-top: 10%; }
+  padding-top: 25%; }
   .banner-text h1 {
     color: #fff;
     font-family: "Open Sans", sans-serif;

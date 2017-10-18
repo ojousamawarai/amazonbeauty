@@ -51,7 +51,7 @@
     bottom: 20px; } }
 @media screen and (max-width: 768px) {
   .banner-text {
-    padding-top: 30%; }
+    padding-top: 10%; }
     .banner-text h1 {
       font-size: 42px; }
     .banner-text p {
@@ -67,15 +67,15 @@
     margin-bottom: 50px; } }
 @media screen and (max-width: 640px) {
   .banner-text {
-    padding-top: 35%; } }
+    padding-top: 15%; } }
 @media screen and (max-width: 480px) {
   .banner-text {
-    padding-top: 45%; }
+    padding-top: 25%; }
     .banner-text h1 {
       font-size: 32px; } }
 @media screen and (max-width: 320px) {
   .banner-text {
-    padding-top: 55%; }
+    padding-top: 35%; }
 
   .testimonials blockquote {
     padding: 20px 5% 0; }
