@@ -4,10 +4,20 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108294779-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-108294779-1');
+	</script>
+
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ActiveBox</title>
+    <title>Amazon Beauty $50 FREE Promotion</title>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -27,7 +37,7 @@
     function submitEmail() { 
         email = document.getElementById('email');
 		button = document.getElementById('joinNow');
-		location.href += button.href + '?email=' + email;
+		location.href += button.href + '?email=' + email.value;
 		return false;
     }
 	</script>
@@ -48,7 +58,7 @@
 						  <input type="text" id="email" name="email" style="color:#000">
 						</form>
 					</h2>
-					<a href="absuccess.html" onclick="return submitEmail()" id="joinNow" class="btn btn-large">Join Now!</a>
+					<a href="absubmit" onclick="return submitEmail()" id="joinNow" class="btn btn-large">Join Now!</a>
                 </div><!-- banner text -->
             </div>
         </div>
