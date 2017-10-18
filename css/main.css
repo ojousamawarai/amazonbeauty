@@ -83,6 +83,9 @@ ul li {
 .no-gutter [class*=col-] {
   padding-right: 0;
   padding-left: 0; }
+  
+.imageClass {
+	padding-top: 20px; }
 
 /* ==========================================================================
 	$Header
