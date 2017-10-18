@@ -37,7 +37,7 @@
     function submitEmail() { 
         email = document.getElementById('email');
 		button = document.getElementById('joinNow');
-		location.href += button.href + '?email=' + email.value;
+		location.href = button.href + '?email=' + email.value;
 		return false;
     }
 	</script>
