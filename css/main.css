@@ -276,21 +276,19 @@ ul li {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     text-transform: uppercase; }
+  .banner-text h2 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+	font-size: 26px;
+    font-weight: 700;
+	line-height: 1.5;
+    margin-bottom: 10px; }
   .banner-text p {
     color: #fff;
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
     margin-bottom: 40px; }/*was 80*/
-	
-.banner-text-email {
-  padding-top: 25%; }
-  .banner-text-email p {
-    color: #fff;
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 1.5;
-    margin-bottom: 10px; }/*was 80*/
 
 /* ==========================================================================
 	$Features
