@@ -90,7 +90,7 @@ ul li {
 #header {
   position: fixed;
   width: 100%;
-  z-index: 9999; }
+  z-index: 999; }
   #header .header-content {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     margin: 0 auto;
@@ -126,7 +126,7 @@ ul li {
   min-height: 750px; }
 
 .banner-text {
-  padding-top: 25%; }
+  padding-top: 50%; }
   .banner-text h1 {
     color: #fff;
     font-family: "Open Sans", sans-serif;
