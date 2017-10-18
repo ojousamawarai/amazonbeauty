@@ -281,7 +281,16 @@ ul li {
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
-    margin-bottom: 20px; }/*was 80*/
+    margin-bottom: 40px; }/*was 80*/
+	
+.banner-text-email {
+  padding-top: 25%; }
+  .banner-text-email p {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px; }/*was 80*/
 
 /* ==========================================================================
 	$Features
