@@ -27,7 +27,7 @@
     function submitEmail() { 
         email = document.getElementById('email');
 		button = document.getElementById('joinNow');
-		button.href +=  '?email=' + email;
+		location.href += button.href + '?email=' + email;
 		return false;
     }
 	</script>
@@ -48,7 +48,7 @@
 						  <input type="text" id="email" name="email" style="color:#000">
 						</form>
 					</h2>
-					<a href="absuccess.html" onclick="submitEmail()" id="joinNow" class="btn btn-large">Join Now!</a>
+					<a href="absuccess.html" onclick="return submitEmail()" id="joinNow" class="btn btn-large">Join Now!</a>
                 </div><!-- banner text -->
             </div>
         </div>
