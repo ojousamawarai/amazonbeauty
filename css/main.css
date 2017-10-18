@@ -83,6 +83,10 @@ ul li {
 .no-gutter [class*=col-] {
   padding-right: 0;
   padding-left: 0; }
+  
+.centerImage {
+text-align:center;
+display:block; }
 
 /* ==========================================================================
 	$Header
