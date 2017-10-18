@@ -117,13 +117,13 @@ ul li {
     font-family: "Open Sans", sans-serif;
 	font-size: 22px;
     font-weight: 700;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   .banner-text p {
     color: #fff;
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
-    margin-bottom: 20px; }/*was 80*/
+    margin-bottom: 40px; }/*was 80*/
 
 /* ==========================================================================
 	$Features
