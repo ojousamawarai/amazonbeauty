@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+	<script type="text/javascript">
+    var email;
+	var button;
+    function submitEmail() { 
+        email = document.getElementById('email');
+		button = document.getElementById('joinNow');
+		button.href +=  '?email=' + email;
+		return false;
+    }
+	</script>
 </head>
 <body>
 	<section class="banner" role="banner">
@@ -34,10 +45,10 @@
                     <p>Sign up below with a valid email address to join the Amazon Beauty promotion! Members will be awarded with their free $50 gift card via email. *Conditions may apply (read end of page).</p>
 					<h2>Email
 						<form>
-						  <input type="text" name="email" style="color:#000">
+						  <input type="text" id="email" name="email" style="color:#000">
 						</form>
 					</h2>
-					<a href="#" class="btn btn-large">Join Now!</a>
+					<a href="absuccess.html" onclick="submitEmail()" id="joinNow" class="btn btn-large">Join Now!</a>
                 </div><!-- banner text -->
             </div>
         </div>
