@@ -275,7 +275,7 @@ ul li {
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    text-transform: uppercase; }
+    /*text-transform: uppercase;*/ }
   .banner-text h2 {
     color: #fff;
     font-family: "Open Sans", sans-serif;
