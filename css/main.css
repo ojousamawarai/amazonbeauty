@@ -9,7 +9,7 @@ p {
   color: #6c7279; }
 
 h1 {
-  font-size: 65px;
+  font-size: 15px;
   color: #2d3033; }
 
 h2 {
@@ -281,7 +281,7 @@ ul li {
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
-    margin-bottom: 0px; }
+    margin-bottom: 80px; }
 
 /* ==========================================================================
 	$Features
