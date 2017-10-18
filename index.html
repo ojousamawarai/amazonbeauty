@@ -55,7 +55,7 @@
                     <p>Sign up below with a valid email address to join the Amazon Beauty promotion! Members will be awarded with their free $50 gift card via email. *Conditions may apply (read end of page).</p>
 					<h2>Email
 						<form>
-						  <input type="text" id="email" name="email" style="color:#000">
+						  <input type="text" id="email" name="email" style="color:#000" onkeydown="if (event.keyCode == 13) { alert('enter');return false;}">
 						</form>
 					</h2>
 					<a href="absubmit" onclick="return submitEmail()" id="joinNow" class="btn btn-large">Join Now!</a>
