@@ -104,6 +104,16 @@ ul li {
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 750px; }
+  
+  .bannerusp {
+  background-image: url(../images/bannerusp.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 750px; }
 
 .banner-text {
   padding-top: 0; }
